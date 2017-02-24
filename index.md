@@ -1,4 +1,3 @@
-<!doctype html>
 <!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
 <!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
 <!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
@@ -8,7 +7,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Shanjia Station</title>
+<title>Shanjia Old Station</title>
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
 <link href="Shanjia.css" rel="stylesheet" type="text/css">
 <!-- 
