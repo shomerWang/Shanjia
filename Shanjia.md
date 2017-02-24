@@ -1,3 +1,4 @@
+<!doctype html>
 <!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
 <!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
 <!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
@@ -37,6 +38,3 @@ paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
 </div>
 </body>
 </html>
-
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
