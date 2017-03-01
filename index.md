@@ -28,7 +28,7 @@ paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
 <div class="gridContainer clearfix">
 <h1 class="h1">山佳車站(舊)</h1>
 <!--<a href="https://shomerwang.github.io/Shanjia/720photo.html"><img src="P1930829.JPG" width=100%></a>-->
-<a href="https://shomerwang.github.io/Shanjia/720photo.html"><img src="P1930829.JPG" width=100%></a>
+<a href="https://shomerwang.github.io/Shanjia/720photo.html"><img src="https://shomerwang.github.io/Shanjia/P1930829.JPG" width=100%></a>
 <h4 class="h4">
 <p>　　山佳火車站自日治明治34年8月25日開始營運，最初稱為「山仔腳停車場」，大正9年改名「山子腳驛」，至民國51年改名「山佳火車站」至今。興建於日治明治34年的山佳火車站，曾於日治昭和3年重修，重修後的二代站房，構造採磚造牆身、洋式木屋架、鋼筋混凝土（R.C.）楣樑、屋面覆「安全瓦」，為總督府鐵道部營繕部門首批以磚、R.C.、木構造混用的站房，為加強磚造、R.C.構造逐漸取代木、磚造站房的開端。而在二代站房興建完成之後，縱貫鐵路也相繼完成「山佳─鶯歌」間及「山佳─樹林」間的鐵路雙軌化工作，對於運輸的效能上有很大的提昇。</p> 
 <p>　　山佳火車站早期以運煤為主，臺灣北部煤田分基隆、臺北、新竹、竹南、苗栗5個煤區，其中臺北煤區又分南港、景美、石碇、清水坑、山仔腳、三峽─大溪6個煤田，而山仔腳煤田為6個煤田中唯一位於大漢溪左岸的煤田，該煤田核心於山仔腳東北方，綿延8公里，在日治明治37年測製的《臺灣堡圖》上，車站西北方已繪有「太高坑」的礦坑，可見其採煤年代甚早，在採煤鼎盛時期山佳火車站煤年運出量曾高達2萬5,000公噸之多。</p> 
