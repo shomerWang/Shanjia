@@ -15,21 +15,22 @@
 		var imgUrl = "https://shomerwang.github.io/Shanjia/iconsh.png";	//標記點圖示來源
 		
 		//------------------------------若網頁介面依照範例網頁的預設設定,以下程式碼可不修改---------------------------------------
+		//------------------------------若網頁介面依照範例網頁的預設設定,以下程式碼可不修改---------------------------------------
 		function InitWnd()
 		{
 			//------------------初始化地圖--------------------
 			var pOMap = document.getElementById("OMap");
 			var mapOptiions = {
-				scaleControl: true,		//不顯示比例尺
+				scaleControl: false,		//不顯示比例尺
 				navigationControl: true,	//顯示地圖縮放控制項
 				navigationControlOptions: {	//設定地圖縮放控制項
-					controlPosition: TGOS.TGControlPosition.TOP_RIGHT,	//控制項位置
-					navigationControlStyle: TGOS.TGNavigationControlStyle.LARGE,
+					controlPosition: TGOS.TGControlPosition.TOP_LEFT,	//控制項位置
+					navigationControlStyle: TGOS.TGNavigationControlStyle.SMALL	//控制項樣式
 				},
 				mapTypeControl: false		//不顯示地圖類型控制項
 			};
 			pMap = new TGOS.TGOnlineMap(pOMap, TGOS.TGCoordSys.EPSG3857, mapOptiions);	//建立地圖,選擇TWD97坐標
-			pMap.setZoom(12);				//初始地圖縮放層級
+			pMap.setZoom(11);				//初始地圖縮放層級
 			pMap.setCenter(markerPoint);	//初始地圖中心點
 			
 			//------------------建立標記點---------------------
