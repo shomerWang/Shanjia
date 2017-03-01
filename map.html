@@ -10,7 +10,7 @@
 		
 		//------------------------------須自行修改的參數,包含點位坐標,訊息視窗內容及圖示檔案來源設定------------------------------
 		
-		var infotext = '<B>山佳（舊）車站</B>;		//地標名稱及訊息視窗內容
+		var infotext = '<B>山佳（舊）車站;		//地標名稱及訊息視窗內容
 		var markerPoint = new TGOS.TGPoint(121.392836 , 24.972595);				//地標坐標位置
 		var imgUrl = "https://shomerwang.github.io/Shanjia/iconsh.png";	//標記點圖示來源
 		
@@ -23,8 +23,8 @@
 				scaleControl: true,		//不顯示比例尺
 				navigationControl: true,	//顯示地圖縮放控制項
 				navigationControlOptions: {	//設定地圖縮放控制項
-					controlPosition: TGOS.TGControlPosition.TOP_LEFT,	//控制項位置
-					navigationControlStyle: TGOS.TGNavigationControlStyle.LARGE	//控制項樣式
+					controlPosition: TGOS.TGControlPosition.TOP_RIGHT,	//控制項位置
+					navigationControlStyle: TGOS.TGNavigationControlStyle.LARGE,
 				},
 				mapTypeControl: false		//不顯示地圖類型控制項
 			};
