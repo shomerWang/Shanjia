@@ -24,13 +24,13 @@
 			//------------------初始化地圖--------------------
 			var pOMap = document.getElementById("OMap");
 			var mapOptiions = {
-				scaleControl: false,		//不顯示比例尺
+				scaleControl: true,		//不顯示比例尺
 				navigationControl: true,	//顯示地圖縮放控制項
 				navigationControlOptions: {	//設定地圖縮放控制項
-					controlPosition: TGOS.TGControlPosition.TOP_LEFT,	//控制項位置
-					navigationControlStyle: TGOS.TGNavigationControlStyle.SMALL	//控制項樣式
+					controlPosition: TGOS.TGControlPosition.TOP_RIGHT,	//控制項位置
+					navigationControlStyle: TGOS.TGNavigationControlStyle.ARGE	//控制項樣式
 				},
-				mapTypeControl: false		//不顯示地圖類型控制項
+				mapTypeControl: true		//不顯示地圖類型控制項
 			};
 			pMap = new TGOS.TGOnlineMap(pOMap, TGOS.TGCoordSys.EPSG3857, mapOptiions);	//建立地圖,選擇TWD97坐標
 			pMap.setZoom(15);				//初始地圖縮放層級
