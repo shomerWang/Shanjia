@@ -28,7 +28,7 @@
 				navigationControl: true,	//顯示地圖縮放控制項
 				navigationControlOptions: {	//設定地圖縮放控制項
 					controlPosition: TGOS.TGControlPosition.TOP_RIGHT,	//控制項位置
-					navigationControlStyle: TGOS.TGNavigationControlStyle.ARGE	//控制項樣式
+					navigationControlStyle: TGOS.TGNavigationControlStyle.LARGE	//控制項樣式
 				},
 				mapTypeControl: true		//不顯示地圖類型控制項
 			};
@@ -38,7 +38,7 @@
 			
 			//------------------建立標記點---------------------
 			var markerImg = new TGOS.TGImage(imgUrl, new TGOS.TGSize(38, 33), new TGOS.TGPoint(0, 0), new TGOS.TGPoint(10, 33));	//設定標記點圖片及尺寸大小
-			var pTGMarker = new TGOS.TGMarker(pMap, markerPoint,'', markerImg);	//建立機關單位標記點
+			//var pTGMarker = new TGOS.TGMarker(pMap, markerPoint,'', markerImg);	//建立機關單位標記點
 			
 			//-----------------建立訊息視窗--------------------
 			var InfoWindowOptions = {
