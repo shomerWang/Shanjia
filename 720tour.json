@@ -1,34 +1,60 @@
 {
-    "title": "山佳（舊）車站",
+    "default": {
+        "title": "山佳（舊）車站",
+        "author": "Shomer Wang",
+        "firstScene": "pond",
+        "sceneFadeDuration": 2000
+    },
     
-    "author": "Shomer Wang",
-    
-    "preview": "./examplepano-preview.jpg",
-    
-    "type": "cubemap",
-    
-    "cubeMap": [
-        "./examplepanocube0.jpg",
-        "./examplepanocube1.jpg",
-        "./examplepanocube2.jpg",
-        "./examplepanocube3.jpg",
-        "./examplepanocube4.jpg",
-        "./examplepanocube5.jpg"
-    ],
-    
-    "hotSpots": [
-        {
-            "pitch": -12,
-            "yaw": 170,
-            "type": "info",
-            "text": "This is Jordan Pond, located in Acadia National Park."
+    "scenes": {
+        "pondCube": {
+            "title": "Jordan Pond (Cube)",
+            "type": "cubemap",
+            "cubeMap": [
+                "./examplepanocube0.jpg",
+                "./examplepanocube1.jpg",
+                "./examplepanocube2.jpg",
+                "./examplepanocube3.jpg",
+                "./examplepanocube4.jpg",
+                "./examplepanocube5.jpg"
+            ],
+            "hotSpots": [
+                {
+                    "pitch": -12,
+                    "yaw": 170,
+                    "type": "info",
+                    "text": "This is Jordan Pond, located in Acadia National Park."
+                },
+                {
+                    "pitch": -10,
+                    "yaw": -50,
+                    "type": "info",
+                    "text": "This is a link.",
+                    "URL": "https://github.com/mpetroff/pannellum"
+                },
+                {
+                    "pitch": 0,
+                    "yaw": -60,
+                    "type": "scene",
+                    "text": "Pond",
+                    "sceneId": "pond"
+                }
+            ]
         },
-        {
-            "pitch": -10,
-            "yaw": -50,
-            "type": "info",
-            "text": "This is a link.",
-            "URL": "https://github.com/mpetroff/pannellum"
+
+        "pond": {
+            "title": "Jordan Pond",
+            "panorama": "./examplepano.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 100,
+                    "type": "scene",
+                    "text": "Pond (cube)",
+                    "sceneId": "pondCube"
+                }
+            ]
         }
-    ]
+    }
 }
+Contact GitHub API Training Shop Blog About
