@@ -8,10 +8,10 @@
     
     "scenes": {
         "pondCube": {
-            "title": "Jordan Pond (Cube)",
+            "title": "山佳（舊）車站",
             "type": "cubemap",
             "cubeMap": [
-                "./examplepanocube0.jpg",
+                "R0010474_20170218114241m.jpg",
                 "./examplepanocube1.jpg",
                 "./examplepanocube2.jpg",
                 "./examplepanocube3.jpg",
