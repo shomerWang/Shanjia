@@ -14,7 +14,7 @@
 		var markerPoint = [new TGOS.TGPoint(121.392823 , 24.972605),
 
 						];	//依序填入地標坐標位置, 坐標數須與標記數一致
-		var imgUrl = ["https://api.tgos.tw/TGOS_API/images/marker2.png",
+		var imgUrl = ["https://shomerwang.github.io/Shanjia/iconsh.png",
 
 					];		//依序設定標記點圖示來源
 		
@@ -33,7 +33,7 @@
 				mapTypeControl: false		//不顯示地圖類型控制項
 			};
 			pMap = new TGOS.TGOnlineMap(pOMap, TGOS.TGCoordSys.EPSG3857, mapOptiions);	//建立地圖,選擇TWD97坐標
-			pMap.setZoom(7);				//初始地圖縮放層級
+			pMap.setZoom(9);				//初始地圖縮放層級
 			//pMap.setCenter(中心點X坐標, 中心點Y坐標);	//初始地圖中心點
 			
             for(var i = 0; i < infotext.length; i++) {
