@@ -11,7 +11,7 @@
             "title": "山佳（舊）車站",
             "type": "cubemap",
             "cubeMap": [
-                "R0010474_20170218114241m.jpg",
+                "https://shomerwang.github.io/Shanjia/R0010474_20170218114241m.jpg",
                 "./examplepanocube1.jpg",
                 "./examplepanocube2.jpg",
                 "./examplepanocube3.jpg",
@@ -44,7 +44,7 @@
 
         "pond": {
             "title": "山佳車站（舊）",
-            "panorama": "R0010474_20170218114241m.jpg",
+            "panorama": "https://shomerwang.github.io/Shanjia/R0010474_20170218114241m.jpg",
             "hotSpots": [
                 {
                     "pitch": 0,
