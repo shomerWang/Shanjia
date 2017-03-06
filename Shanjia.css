@@ -27,12 +27,11 @@ img, object, embed, video {
 */
 
 /* 行動版面: 480px 以下。 */
-.h1{	
+.h1{
 	font-size: 40px;
-	color: #03C;
+	color: #FFF;
 	font-style: normal;
-	font-family: "微軟正黑體";
-	
+	font-family: "微軟正黑體";	
 	}
 .h4{
 	font-size: 18px;
@@ -54,6 +53,7 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	background-color: #03C;	
 }
 #LayoutDiv2 {
 	clear: both;
@@ -91,6 +91,7 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	background-color: #03C;	
 }
 #LayoutDiv2 {
 	clear: both;
@@ -131,6 +132,7 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	background-color: #03C;	
 }
 #LayoutDiv2 {
 	clear: both;
