@@ -77,7 +77,13 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
-
+#OMap{
+	clear: both;
+	float: none;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
 /* 表格版面: 481px 到 768px。樣式繼承自: 行動版面。 */
 
 @media only screen and (min-width: 481px) {
@@ -112,6 +118,13 @@ img, object, embed, video {
 #LayoutDiv4 {
 	clear: both;
 	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+	#OMap{
+	clear: both;
+	float: none;
 	margin-left: 0;
 	width: 100%;
 	display: block;
@@ -154,6 +167,13 @@ img, object, embed, video {
 #LayoutDiv4 {
 	clear: both;
 	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+	#OMap{
+	clear: both;
+	float: none;
 	margin-left: 0;
 	width: 100%;
 	display: block;
