@@ -81,7 +81,7 @@ img, object, embed, video {
 	clear: both;
 	float: none;
 	margin-left: 0;
-	max-width:100%;
+	max-width:500px;
 	display: block;
 }
 /* 表格版面: 481px 到 768px。樣式繼承自: 行動版面。 */
@@ -126,7 +126,7 @@ img, object, embed, video {
 	clear: both;
 	float: none;
 	margin-left: 0;
-	max-width:100%;
+	max-width:500px;
 	display: block;
 }
 }
@@ -175,7 +175,7 @@ img, object, embed, video {
 	clear: both;
 	float: none;
 	margin-left: 0;
-	max-width:100%;
+	max-width:500px;
 	display: block;
 }
 }
