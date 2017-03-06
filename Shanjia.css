@@ -42,7 +42,7 @@ img, object, embed, video {
 .gridContainer {
 	margin-left: auto;
 	margin-right: auto;
-	width: 87.36%;
+	width: 100%;
 	padding-left: 1.82%;
 	padding-right: 1.82%;
 	text-align: center;
@@ -81,7 +81,7 @@ img, object, embed, video {
 
 @media only screen and (min-width: 481px) {
 .gridContainer {
-	width: 90.675%;
+	width: 100%;
 	padding-left: 1.1625%;
 	padding-right: 1.1625%;
 }
@@ -120,8 +120,8 @@ img, object, embed, video {
 
 @media only screen and (min-width: 1280px) {
 .gridContainer {
-	width: 88.2%;
-	max-width: 900px;
+	width: 100%;
+	max-width: 1280px;
 	padding-left: 0.9%;
 	padding-right: 0.9%;
 	margin: auto;
