@@ -157,5 +157,6 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	display: block;
+	height:900px;
 }
 }
