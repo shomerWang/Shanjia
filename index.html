@@ -48,7 +48,7 @@ paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
 				},
 				 mapTypeControl: true,  //mapTypeControl(設定是否開啟地圖類形控制項)
                 mapTypeControlOptions: {  //mapTypeControlOptions(設定地圖類型控制項的設定選項)
-                    mapTypeIds: [TGOS.TGMapTypeId.TGOSMAP, TGOS.TGMapTypeId.NLSCMAP, TGOS.TGMapTypeId.ROADMAP,TGOS.TGMapTypeId.MOTCMAP,TGOS.TGMapTypeId.F2IMAGE],
+                    mapTypeIds: [TGOS.TGMapTypeId.TGOSMAP, TGOS.TGMapTypeId.NLSCMAP, TGOS.TGMapTypeId.ROADMAP,TGOS.TGMapTypeId.HILLSHADE,TGOS.TGMapTypeId.F2IMAGE],
 					//mapTypeId(設定預設顯示地圖類型)
                     controlPosition: TGOS.TGControlPosition.LEFT_BOTTOM,  //position(設定地圖類型控制項在地圖的位置)
                     mapTypeControlStyle: TGOS.TGMapTypeControlStyle.DEFAULT  //style(設定地圖類型控制項樣式,menu/下拉式選單)
@@ -60,7 +60,7 @@ paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
 			pMap.setCenter(markerPoint);	//初始地圖中心點
 			
 			//------------------建立標記點---------------------
-			var markerImg = new TGOS.TGImage(imgUrl, new TGOS.TGSize(100, 100), new TGOS.TGPoint(0, 0), new TGOS.TGPoint(10, 33));	//設定標記點圖片及尺寸大小
+			var markerImg = new TGOS.TGImage(imgUrl, new TGOS.TGSize(100, 100), new TGOS.TGPoint(0, 0), new TGOS.TGPoint(50, 100));	//設定標記點圖片及尺寸大小
 			var pTGMarker = new TGOS.TGMarker(pMap, markerPoint,'', markerImg);	//建立機關單位標記點
 			
 			//-----------------建立訊息視窗--------------------
