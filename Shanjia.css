@@ -28,13 +28,13 @@ img, object, embed, video {
 
 /* 行動版面: 480px 以下。 */
 .h1{
-	font-size: 40px;
+	font-size: 25px;
 	color: #FFF;
 	font-style: normal;
 	font-family: "微軟正黑體";
 	}
 .h4{
-	font-size: 18px;
+	font-size: 14px;
 	color:#333;
 	font-family:"微軟正黑體";
 	text-align: left;
@@ -82,6 +82,18 @@ img, object, embed, video {
 /* 表格版面: 481px 到 768px。樣式繼承自: 行動版面。 */
 
 @media only screen and (min-width: 481px) {
+.h1{
+	font-size: 30px;
+	color: #FFF;
+	font-style: normal;
+	font-family: "微軟正黑體";
+	}
+.h4{
+	font-size: 16px;
+	color:#333;
+	font-family:"微軟正黑體";
+	text-align: left;
+}
 .gridContainer {
 	width: 100%;
 	padding-left: 1.1625%;
@@ -122,6 +134,18 @@ img, object, embed, video {
 /* 桌面版面: 769px 到最大 1232px。樣式繼承自: 行動版面和表格版面。 */
 
 @media only screen and (min-width: 1280px) {
+.h1{
+	font-size: 35px;
+	color: #FFF;
+	font-style: normal;
+	font-family: "微軟正黑體";
+	}
+.h4{
+	font-size: 18px;
+	color:#333;
+	font-family:"微軟正黑體";
+	text-align: left;
+}
 .gridContainer {
 	width: 100%;
 	max-width: 1280px;
