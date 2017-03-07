@@ -49,12 +49,10 @@ img, object, embed, video {
 }
 #LayoutDiv1 {
 	clear: both;
-	float: center;
+	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	background-color: #03C;
-	text-align: center;
 }
 #LayoutDiv2 {
 	clear: both;
@@ -88,12 +86,10 @@ img, object, embed, video {
 }
 #LayoutDiv1 {
 	clear: both;
-	float: center;
+	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	background-color: #03C;
-	text-align: center;
 }
 #LayoutDiv2 {
 	clear: both;
@@ -130,12 +126,10 @@ img, object, embed, video {
 }
 #LayoutDiv1 {
 	clear: both;
-	float: center;
+	float: left;
 	margin-left: 0;
 	width: 100%;
 	display: block;
-	background-color: #03C;	
-	text-align: center;
 }
 #LayoutDiv2 {
 	clear: both;
